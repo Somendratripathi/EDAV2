@@ -12,3 +12,8 @@ head(ggplot2::mpg)
 
 ggplot(data=ggplot2::mpg) + 
  geom_point(mapping = aes(x = displ, y = hwy))
+
+
+
+git config --global user.email "somendra.dutt.tripathi@gmail.com"
+git config --global user.name "Somendra"
