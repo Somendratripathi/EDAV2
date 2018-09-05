@@ -14,6 +14,8 @@ ggplot(data=ggplot2::mpg) +
  geom_point(mapping = aes(x = displ, y = hwy))
 
 
+#Run ggplot(data = mpg). What do you see?
+#Nothing
 
-git config --global user.email "somendra.dutt.tripathi@gmail.com"
-git config --global user.name "Somendra"
+#How many rows are in mpg? How many columns?
+nrow(mpg)
